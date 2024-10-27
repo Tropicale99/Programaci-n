@@ -7,7 +7,7 @@ Definicion: Un String es una cadena de caracteres
 Dentro de un string pueden existir caracteres especiales que permiten incluir 
 saltos de linea (\n), comillas (\” \’) y tabuladores (\t) las "\t" son espacios como las sidentaciones.
 '''
-s = " Luke ... \n\t \" yo soy tu padre \""
+# s = " Luke ... \n\t \" yo soy tu padre \""
 # print (s)
 # >>> Luke ...
 #                "yo soy tu padre "
@@ -118,15 +118,15 @@ llamamos a la funcion con un string cualquiera
 print ( invertir ("yo soy tu padre ") )
 '''
 #Ejercicio para invertir un input
-def invertir ( s):
-    ret = "" # String nulo !
-    for c in s :
-        ret = c + ret
-    return ret
+# def invertir ( s):
+#     ret = "" # String nulo !
+#     for c in s :
+#         ret = c + ret
+#     return ret
 
-print ( invertir ("yo soy tu padre ") )
+#print ( invertir ("yo soy tu padre ") )
 
-input("Escribe la palabra a invertir ")
+# print(input("Escribe la palabra a invertir "))
 
 
 
